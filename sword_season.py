@@ -18,7 +18,7 @@ else:
     demon_multiplier = 10
     no_op_multiplier = 10
 
-deck += ["Spawn a demon for each player"]*demon_multiplier
+deck += ["Spawn a demon for each player."]*demon_multiplier
 deck += ["No new demons!"]*no_op_multiplier
 random.shuffle(deck)
 
